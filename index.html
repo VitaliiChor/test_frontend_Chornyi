@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <div id="favor-save-img">
+        <div id="favorite-img-block" class="favorite-images">
+        </div>
+        <button type="button" href="javascript:void(0)" id="saved-img" class="btn-style" onclick="newPage()">See your
+            images</button>
+        <button type="button" id="delete-btn" class="btn-style">Delete your images</button>
+    </div>
+
+    <div id="img-block">
+        <button type="button" id="more-img-btn" class="btn-style">Load images</button>
+        <div id="more-img-block">
+        </div>
+        <div id="main-img">
+        <img id="image-id" class="fav-img" src="https://picsum.photos/seed/picsum/200/300">
+
+        <div id="btn-block">
+            <button type="button" id="prev" class="btn-style" onclick="prev()">Prev</button type="button">
+            <button type="button" id="next" class="btn-style" onclick="next()">Next</button>
+        </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

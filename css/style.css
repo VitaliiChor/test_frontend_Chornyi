@@ -1,0 +1,81 @@
+
+#img-block {
+    width: 710px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+#image-id {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+
+#new-img {
+    height: 200px;
+    width: 300px;
+    margin: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    position: relative;
+}
+
+#new-img:hover {
+    height: 205px;
+    width: 305px;
+}
+
+#add-to-favorite {
+    text-align: center;
+    background: transparent;
+    border: 2px solid black;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+
+/* Btn */
+#btn-block {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+#hide-btn {
+    display: none;
+}
+
+/* End Btn */
+
+
+#more-img-block {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2,310px);    
+}
+
+#favor-save-img {
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    text-align: center;
+    display: none;
+}
+
+#favorite-img-block img {
+    width: 50px;
+    height: 50px;
+}
+
+.btn-style {
+    background: transparent;
+    padding: 10px 15px;
+    cursor: pointer; 
+}
